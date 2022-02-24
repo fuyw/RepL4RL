@@ -25,7 +25,7 @@ A major reason to apply RepL in RL is to solve problems with high-dimensional st
 Some popular methods of applying RepL in RL.
 
 - Auxiliary tasks, *i.e.*, reconstruction, MI maximization, entropy maximization, dynamics prediction.
-  - ACL, APS, AVFs, CPC, DBC, Dreamer, DreamerV2, DyNE, IDDAC, PBL, PI-SAC, PlaNet, RCRL, SLAC, SAC-AE, SPR, ST-DIM, TIA, UNREAL, Value-Improvement Path, World Model.
+  - ACL, APS, AVFs, CIC, CPC, DBC, Dreamer, DreamerV2, DyNE, IDDAC, PBL, PI-SAC, PlaNet, RCRL, SLAC, SAC-AE, SPR, ST-DIM, TIA, UNREAL, Value-Improvement Path, World Model.
 - Contrastive learning.
   - ACL, ATC, Contrastive Fourier, CURL, RCRL. 
 - Data augmentation.
@@ -57,8 +57,9 @@ Some popular methods of applying RepL in RL.
 - [[NeurIPS' 20][SLAC] Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Mode](https://arxiv.org/abs/1907.00953) ([Code](https://github.com/alexlee-gk/slac))
 - [[NeurIPS' 20][RAD] Reinforcement Learning with Augmented Data](https://arxiv.org/abs/2004.14990) ([Code](https://github.com/MishaLaskin/rad))
 - [[ICML' 20][CURL] Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/abs/2004.04136) ([Code](https://www.github.com/MishaLaskin/curl))
-- [[ICLR' 20][DynE] Dynamics-aware Embeddings](https://arxiv.org/abs/1908.09357) ([Code](https://github.com/dyne-submission/dynamics-aware-embeddings)) 
+- [[ICLR' 20][DynE] Dynamics-aware Embeddings](https://arxiv.org/abs/1908.09357) ([Code](https://github.com/dyne-submission/dynamics-aware-embeddings))
 - [[NeurIPS' 21] An Empirical Investigation of Representation Learning for Imitation](https://openreview.net/forum?id=kBNhgqXatI) ([Code](https://github.com/HumanCompatibleAI/eirli))
+- [[NeurIPS' 21][SGI] Pretraining Representations for Data-Efficient Reinforcement Learning](https://proceedings.neurips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html) ([Code](https://github.com/mila-iqia/SGI))
 - [[AAAI' 21][SAC-AE] Improving Sample Efficiency in Model-Free Reinforcement Learning from Images](https://arxiv.org/abs/1910.01741) ([Code](https://sites.google.com/view/sac-ae/home))
 - [[AAAI' 21][Value-Improvement Path] Towards Better Representations for Reinforcement Learning](https://arxiv.org/abs/2006.02243)
 - [[AISTATS' 21] On The Effect of Auxiliary Tasks on Representation Dynamics](https://arxiv.org/abs/2102.13089)
@@ -117,4 +118,5 @@ Some popular methods of applying RepL in RL.
 
 - [[ICML' 20][MISA]  Invariant Causal Prediction for Block MDPs](https://arxiv.org/abs/2003.06016) ([Code](https://github.com/facebookresearch/icp-block-mdp))
 - [[ICLR' 21][PSEs] Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning](https://arxiv.org/abs/2101.05265)
+- [[arXiv' 22][CIC] : Contrastive Intrinsic Control for Unsupervised Skill Discovery](https://arxiv.org/abs/2202.00161) ([Code](https://sites.google.com/view/cicrl/))
 
