@@ -11,7 +11,7 @@ A major reason to apply RepL in RL is to solve problems with high-dimensional st
 - Previous methods are sample inefficient in vision-based RL.
     - Good representations can accelerate learning from images.
 - Most of current RL agents are task-specific.
-    - Good representations can generalize across different tasks.
+    - Good representations can generalize well across different tasks, or adapt quickly to new tasks.
 - Effective exploration is challenging in many RL tasks.
     - Good representations can accelerate exploration.
 
@@ -29,7 +29,7 @@ Some popular methods of applying RepL in RL.
 - Contrastive learning.
   - ACL, ATC, Contrastive Fourier, CURL, RCRL. 
 - Data augmentation.
-  - DrQ, PSEs, RAD.
+  - DrQ, DrQ-v2, PSEs, RAD.
 - Bisimulation.
   - DBC, PSEs.
 - Causal inference.
@@ -70,6 +70,7 @@ Some popular methods of applying RepL in RL.
 - [[ICML' 21][ATC] Decoupling representation learning from reinforcement learning](https://arxiv.org/abs/2009.08319) ([Code](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul))
 - [[ICML' 21][APS] Active Pretraining with Successor Features](http://proceedings.mlr.press/v139/liu21b.html)
 - [[ICML'21][IDDAC] Decoupling Value and Policy for Generalization in Reinforcement Learning](https://arxiv.org/abs/2102.10330) ([Code](https://github.com/rraileanu/idaac))
+- [[ICLR' 22][DrQ-v2] Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning](https://openreview.net/forum?id=_SJ-_yyes8) [(Code)](https://github.com/facebookresearch/drqv2)
 
 ### Theory
 
@@ -78,7 +79,7 @@ Some popular methods of applying RepL in RL.
 - [[ICLR' 20] Is a good representation sufficient for sample efficient reinforcement learning?](https://arxiv.org/abs/1910.03016)
 - [[ICLR' 21] Impact of Representation Learning in Linear Bandits](https://arxiv.org/abs/2010.06531)
 - [[arXiv' 21] Model-free Representation Learning and Exploration in Low-rank MDPs](https://arxiv.org/abs/2102.07035)
-- [[arXiv' 21] Representation Learning for Online and Offline RL in Low-rank MDPs](https://arxiv.org/abs/2110.04652)
+- [[arXiv' 21] Representation Learning for Online and Offline RL in Low-rank MDPs](https://arxiv.org/abs/2110.04652) :heart:
 - [[arXiv' 21] Action-Sufficient State Representation Learning for Control with Structural Constraints](https://arxiv.org/abs/2110.05721)
 - [[arXiv' 21] Exponential Lower Bounds for Planning in MDPs With Linearly-Realizable Optimal Action-Value Functions](https://arxiv.org/abs/2010.01374)
 
@@ -118,5 +119,7 @@ Some popular methods of applying RepL in RL.
 
 - [[ICML' 20][MISA]  Invariant Causal Prediction for Block MDPs](https://arxiv.org/abs/2003.06016) ([Code](https://github.com/facebookresearch/icp-block-mdp))
 - [[ICLR' 21][PSEs] Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning](https://arxiv.org/abs/2101.05265)
-- [[arXiv' 22][CIC] : Contrastive Intrinsic Control for Unsupervised Skill Discovery](https://arxiv.org/abs/2202.00161) ([Code](https://sites.google.com/view/cicrl/))
+- [[ICML WS' 21] Representation Learning for Out-of-distribution Generalization in Reinforcement Learning](https://openreview.net/forum?id=I8rHTlfITWC) :heart:
+- [[arXiv' 22][CIC] Contrastive Intrinsic Control for Unsupervised Skill Discovery](https://arxiv.org/abs/2202.00161) ([Code](https://sites.google.com/view/cicrl/))
+- [[AISTATS' 22] On the Generalization of Representations in Reinforcement Learning](https://arxiv.org/abs/2203.00543) :heart:
 
