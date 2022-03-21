@@ -93,6 +93,7 @@ Some popular methods of applying RepL in RL.
 ### Offline RL
 
 - [[NeurIPS' 21][Contrastive Fourier] Provable Representation Learning for Imitation with Contrastive Fourier Features](https://arxiv.org/abs/2105.12272) ([Code](https://github.com/google-research/google-research/tree/master/rl_repr))
+- [[NeurIPS' 21][DR3] DR3: Value-Based Deep RL Requires Explicit Regularization](https://openreview.net/forum?id=POvMvLi91f) :heart:
 - [[ICML' 21][ACL] Representation Matters: Offline Pretraining for Sequential Decision Making](https://arxiv.org/abs/2102.05815) ([Code](https://github.com/google-research/google-research/tree/master/rl_repr))
 - [[ICML' 21] Instabilities of offline rl with pre-trained neural representation](https://arxiv.org/abs/2103.04947)
 
