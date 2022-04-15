@@ -76,6 +76,7 @@ Some popular methods of applying RepL in RL.
 
 - [[ICML' 19] DeepMDP: Learning Continuous Latent Space Models for Representation Learning](https://arxiv.org/abs/1906.02736)
 - [[ICML' 20] Learning with Good Feature Representations in Bandits and in RL with a Generative Model](https://arxiv.org/abs/1911.07676)
+- [[ICML' 20] Representations for Stable Off-Policy Reinforcement Learning](https://arxiv.org/abs/2007.05520) :heart:
 - [[ICLR' 20] Is a good representation sufficient for sample efficient reinforcement learning?](https://arxiv.org/abs/1910.03016)
 - [[ICLR' 21] Impact of Representation Learning in Linear Bandits](https://arxiv.org/abs/2010.06531)
 - [[arXiv' 21] Model-free Representation Learning and Exploration in Low-rank MDPs](https://arxiv.org/abs/2102.07035)
@@ -94,6 +95,7 @@ Some popular methods of applying RepL in RL.
 
 - [[NeurIPS' 21][Contrastive Fourier] Provable Representation Learning for Imitation with Contrastive Fourier Features](https://arxiv.org/abs/2105.12272) ([Code](https://github.com/google-research/google-research/tree/master/rl_repr))
 - [[NeurIPS' 21][DR3] DR3: Value-Based Deep RL Requires Explicit Regularization](https://openreview.net/forum?id=POvMvLi91f) :heart:
+- [[ICLR' 21] Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning](https://openreview.net/forum?id=O9bnihsFfXU) :heart:
 - [[ICML' 21][ACL] Representation Matters: Offline Pretraining for Sequential Decision Making](https://arxiv.org/abs/2102.05815) ([Code](https://github.com/google-research/google-research/tree/master/rl_repr))
 - [[ICML' 21] Instabilities of offline rl with pre-trained neural representation](https://arxiv.org/abs/2103.04947)
 
