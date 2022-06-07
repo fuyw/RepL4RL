@@ -27,7 +27,7 @@ Some popular methods of applying RepL in RL.
 - Auxiliary tasks, *i.e.*, reconstruction, MI maximization, entropy maximization, dynamics prediction.
   - ACL, APS, AVFs, CIC, CPC, DBC, Dreamer, DreamerV2, DyNE, IDDAC, PBL, PI-SAC, PlaNet, RCRL, SLAC, SAC-AE, SPR, ST-DIM, TIA, UNREAL, Value-Improvement Path, World Model.
 - Contrastive learning.
-  - ACL, ATC, Contrastive Fourier, CURL, RCRL. 
+  - ACL, ATC, Contrastive Fourier, CURL, RCRL, CoBERL. 
 - Data augmentation.
   - DrQ, DrQ-v2, PSEs, RAD.
 - Bisimulation.
@@ -71,6 +71,8 @@ Some popular methods of applying RepL in RL.
 - [[ICML' 21][APS] Active Pretraining with Successor Features](http://proceedings.mlr.press/v139/liu21b.html)
 - [[ICML'21][IDDAC] Decoupling Value and Policy for Generalization in Reinforcement Learning](https://arxiv.org/abs/2102.10330) ([Code](https://github.com/rraileanu/idaac))
 - [[ICLR' 22][DrQ-v2] Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning](https://openreview.net/forum?id=_SJ-_yyes8) [(Code)](https://github.com/facebookresearch/drqv2)
+- [[ICLR' 22][CoBERL][Contrastive BERT for Reinforcement Learning]](https://openreview.net/forum?id=sRZ3GhmegS)
+- [[arXiv' 22][R3M] A Universal Visual Representation for Robot Manipulation](https://arxiv.org/abs/2203.12601) [(Code)](https://github.com/facebookresearch/r3m)
 
 ### Theory
 
@@ -122,6 +124,7 @@ Some popular methods of applying RepL in RL.
 
 - [[ICML' 20][MISA]  Invariant Causal Prediction for Block MDPs](https://arxiv.org/abs/2003.06016) ([Code](https://github.com/facebookresearch/icp-block-mdp))
 - [[ICLR' 21][PSEs] Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning](https://arxiv.org/abs/2101.05265)
+- [[ICML' 21][IDAAC] Decoupling Value and Policy for Generalization in Reinforcement Learning](https://arxiv.org/abs/2102.10330)
 - [[ICML WS' 21] Representation Learning for Out-of-distribution Generalization in Reinforcement Learning](https://openreview.net/forum?id=I8rHTlfITWC) :heart:
 - [[arXiv' 22][CIC] Contrastive Intrinsic Control for Unsupervised Skill Discovery](https://arxiv.org/abs/2202.00161) ([Code](https://sites.google.com/view/cicrl/))
 - [[AISTATS' 22] On the Generalization of Representations in Reinforcement Learning](https://arxiv.org/abs/2203.00543) :heart:
