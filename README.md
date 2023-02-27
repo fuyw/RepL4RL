@@ -129,3 +129,5 @@ Some popular methods of applying RepL in RL.
 - [[arXiv' 22][CIC] Contrastive Intrinsic Control for Unsupervised Skill Discovery](https://arxiv.org/abs/2202.00161) ([Code](https://sites.google.com/view/cicrl/))
 - [[AISTATS' 22] On the Generalization of Representations in Reinforcement Learning](https://arxiv.org/abs/2203.00543) :heart:
 
+- [[ICLR' 23] Does Zero-Shot Reinforcement Learning Exist?](https://openreview.net/forum?id=MYEap_OcQI)
+
